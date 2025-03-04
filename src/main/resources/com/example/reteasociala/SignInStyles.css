@@ -1,0 +1,41 @@
+/* Style for the overall window background */
+.root {
+    -fx-background-color: black;
+}
+
+/* Style for labels */
+.label {
+    -fx-text-fill: yellow;
+    -fx-font-size: 14px;
+}
+
+/* Style for text fields (username and password) */
+.text-field, .password-field {
+    -fx-background-color: black;
+    -fx-text-fill: yellow;
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: gray; /* Style for placeholder text */
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5 10;
+}
+
+.button:hover {
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow; /* Change color as needed */
+    -fx-alignment: center;
+}

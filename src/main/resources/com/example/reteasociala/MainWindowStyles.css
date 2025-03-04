@@ -1,0 +1,87 @@
+/* Stil global pentru rădăcina aplicației */
+.root {
+    -fx-background-color: black; /* Fundal general */
+    -fx-text-fill: #a19933; /* Culoarea textului implicit */
+}
+
+/* Stil pentru labelurile din header */
+.header-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: white; /* Text alb */
+}
+
+/* Stil pentru VBox */
+.v-box, .vbox {
+    -fx-background-color: #a19933; /* Fundal auriu */
+    -fx-text-fill: black; /* Text negru */
+    -fx-spacing: 10; /* Spațiere între elemente */
+    -fx-padding: 10; /* Margini interioare */
+}
+
+/* Stil pentru VBox-ul din dreapta, identificat prin ID */
+#vBoxDreapta {
+    -fx-background-color: #a19933; /* Fundal auriu */
+}
+
+/* Stil pentru nodurile user-anchor-friend */
+.user-anchor-friend {
+    -fx-text-fill: black; /* Text negru */
+}
+
+/* Stil specific pentru user-anchor-friend din VBox Dreapta */
+#vBoxDreapta .user-anchor-friend {
+    -fx-text-fill: black; /* Asigurare că textul este negru */
+}
+
+/* Stil pentru butoanele meniului */
+.menu-button {
+    -fx-background-color: #333; /* Fundal gri închis */
+    -fx-text-fill: white; /* Text alb */
+    -fx-font-size: 14px; /* Dimensiune font */
+    -fx-border-color: white; /* Graniță albă */
+    -fx-border-radius: 3px; /* Colțuri rotunjite */
+    -fx-background-radius: 3px;
+    -fx-padding: 10 20;
+    -fx-min-width: 80px; /* Setează o lățime minimă */
+    -fx-pref-width: 100px; /* Setează lățimea preferată */
+    -fx-max-width: 200px; /* Opțional, limitează lățimea maximă */
+    -fx-alignment: center;
+    -fx-font-size: 12px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #555; /* Fundal mai deschis la hover */
+}
+
+/* Stil pentru câmpuri text */
+.text-field, .text-area {
+    -fx-background-color: #222; /* Fundal gri închis */
+    -fx-text-fill: white; /* Text alb */
+    -fx-prompt-text-fill: gray; /* Text implicit gri */
+    -fx-border-color: white; /* Graniță albă */
+}
+
+/* Stil pentru butoane generale */
+.button {
+    -fx-background-color: #a19933; /* Fundal auriu */
+    -fx-text-fill: black; /* Text negru */
+    -fx-border-color: black; /* Graniță neagră */
+    -fx-border-radius: 3px; /* Colțuri rotunjite */
+    -fx-background-radius: 3px;
+}
+
+.button:hover {
+    -fx-background-color: red; /* Fundal roșu la hover */
+}
+
+/* Stil pentru scroll pane */
+.scroll-pane {
+    -fx-background: #a19933; /* Fundal auriu */
+    -fx-text-fill: black; /* Text negru */
+}
+
+/* Stil pentru VBox și HBox */
+.hbox {
+    -fx-spacing: 10; /* Spațiere între elemente */
+    -fx-padding: 10; /* Margini interioare */
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@../reteasociala/SignInStyles.css"
+            styleClass="root"
+            prefHeight="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reteasociala.SignInController">
+   <children>
+      <Label styleClass="title" text="Welcome to Social Network" layoutX="150.0" layoutY="20.0" textAlignment="CENTER"/>
+      <TextField styleClass="text-field" fx:id="textUsername" layoutX="226.0" layoutY="120.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="224.4" />
+      <Label styleClass="label" layoutX="271.0" layoutY="83.0" text="Username" textAlignment="CENTER" AnchorPane.leftAnchor="271.0" AnchorPane.rightAnchor="272.2" />
+      <Label styleClass="label" layoutX="274.0" layoutY="191.0" text="Password" textAlignment="CENTER" AnchorPane.leftAnchor="274.0" AnchorPane.rightAnchor="275.6" />
+      <Button styleClass="button" layoutX="225.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleLogIn" text="LOG IN" AnchorPane.bottomAnchor="83.4" AnchorPane.leftAnchor="225.0" />
+      <Button styleClass="button" layoutX="313.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleNewUser" prefHeight="26.0"  text="SIGN UP" AnchorPane.bottomAnchor="83.0" AnchorPane.rightAnchor="224.0" />
+      <PasswordField styleClass="password-field" fx:id="textPassword" layoutX="226.0" layoutY="233.0" AnchorPane.leftAnchor="226.0" AnchorPane.rightAnchor="224.4" />
+   </children>
+</AnchorPane>
